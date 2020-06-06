@@ -1,4 +1,4 @@
-<h1 align="center">:pencil: React Checklist</h1>
+<h1 align="center"><a href="https://react-checklist.netlify.app/">:pencil: React Checklist</a></h1>
 
 ## Deployment
 
