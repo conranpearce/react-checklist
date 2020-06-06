@@ -1,4 +1,4 @@
-# React Checklist
+<h1 align="center">:pencil: React Checklist</h1>
 
 ## Deployment
 
