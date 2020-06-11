@@ -22,7 +22,7 @@ export class AddTodo extends Component {
                     type="text" 
                     name="title" 
                     style={{ flex: '10', padding: '5px'}}
-                    placeholder="Add To do..." 
+                    placeholder="Add To Do..." 
                     value={this.state.title}
                     onChange={this.onChange}
                 />
