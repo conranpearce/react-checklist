@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Todos from './todos/Todos';
 import AddTodo from './todos/AddTodo';
-
 import axios from 'axios';
-import { Switch, Link } from 'react-router-dom';
 
 var FontAwesome = require('react-fontawesome')
 
@@ -34,25 +31,23 @@ class Home extends Component {
           .then(res => this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)] }));
     }
     
-      // Add To Do
-      addTodo = (title) => {
-        // Post request to only return false to do's
-        axios.post('https://jsonplaceholder.typicode.com/todos', {
-          title,
-          completed: false
-        })
-          .then(res => this.setState({ todos: [...this.state.todos, res.data] }));
-      }
+    // Add To Do
+    addTodo = (title) => {
+    // Post request to only return false to do's
+    axios.post('https://jsonplaceholder.typicode.com/todos', {
+        title,
+        completed: false
+    })
+        .then(res => this.setState({ todos: [...this.state.todos, res.data] }));
+    }
     
-      render () {
+    render () {
         return (
             <React.Fragment>
-             <AddTodo addTodo={ this.addTodo }/>
+                <AddTodo addTodo={ this.addTodo }/>
                 <Todos todos={ this.state.todos } markComplete={ this.markComplete }
                 delTodo={ this.delTodo }/>
             </React.Fragment>
-
-
         );
     }
 }
