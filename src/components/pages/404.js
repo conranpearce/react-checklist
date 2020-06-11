@@ -17,7 +17,7 @@ const aimsStyle = {
     background: '#33373e',
     color: '#fff',
     textAlign: 'center',
-    padding: '10px'
+    padding: '10px',
 }
 
 const linkStyle = {
