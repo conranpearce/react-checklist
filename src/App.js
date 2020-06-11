@@ -5,6 +5,7 @@ import Footer from './components/layout/Footer';
 import Todos from './components/todos/Todos';
 import AddTodo from './components/todos/AddTodo';
 import About from './components/pages/About';
+import Checklist from './components/pages/Checklist';
 import './Stylesheets/App.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -59,8 +60,9 @@ class App extends Component {
                 delTodo={ this.delTodo }/>
               </React.Fragment>
             )} />
-            {/* <Route path="/about" component={About} /> */}
-            <Link style={linkStyle}to="/About">About</Link>
+            <Route path="/about" component={About} />
+            <Route path="/checklist" component={Checklist} />
+            {/* <Link style={linkStyle}to="/About">About</Link> */}
 
             <Footer />
           </div>
