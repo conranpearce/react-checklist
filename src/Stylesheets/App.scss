@@ -1,0 +1,46 @@
+/* Colours */
+$lightBlue: #5cb9d3;
+$lightPurple: #9986ca;
+$greyV1: #282c34;
+$greyV2:  #33373e;
+$btnDarker: #555555;
+$btnLightGrey: #666666;
+$textGrey: #333333;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    background-color: $greyV2;
+}
+  
+a {
+    color: $textGrey;
+    text-decoration: none;
+}
+  
+.container {
+    padding: 1rem 10rem; 
+}
+  
+.btn {
+    display: inline-block;
+    border: none;
+    background: $btnLightGrey;
+    color: #ffffff;
+    padding: 7px 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: $btnLightGrey
+    }
+}
+  
+.fa-icon-link {
+    background-color: aquamarine;
+}

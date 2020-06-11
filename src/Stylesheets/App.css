@@ -1,11 +1,7 @@
 /* Colours */
-/* #282c34 */
-/* #33373e */
-/* #5cb9d3 light blue */
-/* #9986ca lighter purple */
-
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -17,7 +13,7 @@ body {
 }
 
 a {
-  color: #333;
+  color: #333333;
   text-decoration: none;
 }
 
@@ -28,12 +24,17 @@ a {
 .btn {
   display: inline-block;
   border: none;
-  background: #555555;
+  background: #666666;
   color: #ffffff;
   padding: 7px 20px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #666
+  background: #666666;
 }
+
+.fa-icon-link {
+  background-color: aquamarine;
+}
+/*# sourceMappingURL=App.css.map */

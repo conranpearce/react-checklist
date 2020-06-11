@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 import Todos from './components/todos/Todos';
 import AddTodo from './components/todos/AddTodo';
 import About from './components/pages/About';
-import './App.css';
+import './Stylesheets/App.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
 
@@ -57,12 +59,22 @@ class App extends Component {
                 delTodo={ this.delTodo }/>
               </React.Fragment>
             )} />
-            <Route path="/about" component={About} />
+            {/* <Route path="/about" component={About} /> */}
+            <Link style={linkStyle}to="/About">About</Link>
+
+            <Footer />
           </div>
         </div>
       </Router>
     );
   }
 }
+
+
+const linkStyle = {
+  color: '#fff',
+  textDecoration: 'none'
+}
+
 
 export default App;
