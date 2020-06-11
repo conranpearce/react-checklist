@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Todos from './todos/Todos';
-import AddTodo from './todos/AddTodo';
+import Todos from '../todos/Todos';
+import AddTodo from '../todos/AddTodo';
 import axios from 'axios';
 
 var FontAwesome = require('react-fontawesome')
