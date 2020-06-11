@@ -13,9 +13,11 @@ function Header() {
                     style={iconStyle}
                 />
             </a>
-            <h1>Daily Journal</h1>
-            <Link style={linkStyle}to="/">Home</Link> | <Link style={linkStyle} to="/aims">Aims </Link> 
-        |   <Link style={linkStyle} to="/checklist">Checklist</Link>  
+            <h1><Link style={linkStyle} to="/">Daily Journal</Link></h1>
+            {/* <Link style={linkStyle}to="/">Home</Link> |  */}
+            <Link style={linkStyle} to="/aims">Aims </Link> 
+        |   <Link style={linkStyle} to="/checklist">Checklist </Link>  
+        |   <Link style={linkStyle} to="/reflect">Reflect</Link>  
         </header>
     )
 }

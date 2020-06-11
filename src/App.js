@@ -6,6 +6,7 @@ import Footer from './components/layout/Footer';
 // import AddTodo from './components/pages/todos/AddTodo';
 import Aims from './components/pages/Aims';
 import Checklist from './components/pages/Checklist';
+import Reflect from './components/pages/Reflect';
 import NotFound from './components/pages/404';
 import Home from './components/pages/Home';
 import './Stylesheets/App.css';
@@ -23,6 +24,7 @@ class App extends Component {
               <Route exact path="/" component={Home}/>
               <Route path="/aims" component={Aims} />
               <Route path="/checklist" component={Checklist} />
+              <Route path="/reflect" component={Reflect} />
               <Route path="*" component={NotFound} />
             </Switch>
             <Footer />
