@@ -6,7 +6,7 @@ var FontAwesome = require('react-fontawesome')
 function Checklist() {
     return (
         <React.Fragment>
-            <div style={aboutStyle}>
+            <div style={aimsStyle}>
                 <h1><a style={linkStyle} href="https://conranpearce.github.io" target="_blank">Conran Pearce</a></h1>
                 <a href="https://conranpearce.github.io" target="_blank"><FontAwesome
                     name="github"
@@ -18,7 +18,7 @@ function Checklist() {
     )
 }
 
-const aboutStyle = {
+const aimsStyle = {
     background: '#33373e',
     color: '#fff',
     textAlign: 'center',
