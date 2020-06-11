@@ -1,12 +1,12 @@
-<h1 align="center"><a href="https://react-checklist.netlify.app/">:pencil: React Journal</a></h1>
+<h1 align="center"><a href="https://react-journal.netlify.app/">:pencil: React Journal</a></h1>
 
 ## Deployment
 
 The GitHub repository has been linked with [Netlify](https://www.netlify.com/) for continuous integration.
 
-Production branch live at https://react-checklist.netlify.app/
+Production branch live at https://react-journal.netlify.app/
 
-Develop branch live at https://develop-react-checklist.netlify.app/
+Develop branch live at https://develop-react-journal.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
